@@ -1,0 +1,36 @@
+{
+  ":name": "FrontAid CMS - website for filippomedici.com",
+  ":description": "Modello dei dati per il sito filippomedici.com",
+  "home": {
+    ":items": {
+      "category": {
+        ":description": "Singolo modello che identifica la sezione",
+        "title": {
+          ":type": "line"
+        },
+        "photo": {
+          ":type": "line"
+        }
+      }
+    }
+  },
+  "custom-field": {
+    ":description": "This example text is used as a description.",
+    ":type": "line"
+  },
+  "custom-object": {
+    "custom-line": {
+      ":type": "line"
+    },
+    "custom-text": {
+      ":type": "text"
+    }
+  },
+  "custom-list": {
+    ":items": {
+      "custom-list-item": {
+        ":type": "line"
+      }
+    }
+  }
+}
