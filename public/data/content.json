@@ -1,10 +1,10 @@
 {
-  "home": [
-    {
-      "category": {
-        "title": "Sound Design and Composition",
-        "photo": "foto"
-      }
-    }
-  ]
+    "home": [
+        {
+            "category": {
+                "title": "Sound Design and Composition",
+                "photo": "foto"
+            }
+        }
+    ]
 }

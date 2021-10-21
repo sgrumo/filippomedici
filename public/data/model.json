@@ -14,22 +14,67 @@
       }
     }
   },
-  "custom-field": {
-    ":description": "This example text is used as a description.",
-    ":type": "line"
-  },
-  "custom-object": {
-    "custom-line": {
-      ":type": "line"
-    },
-    "custom-text": {
-      ":type": "text"
+  "soundPortfolio": {
+    ":items": {
+      "video": {
+        ":description": "Singolo oggetto della lista del portfolio del sound composition",
+        "url": {
+          ":description": "URL da Vimeo per l'anteprima",
+          ":type": "line"
+        },
+        "title": {
+          ":description": "Titolo",
+          ":type": "line"
+        },
+        "description": {
+          ":description": "Descrizione ",
+          ":type": "line"
+        },
+        "contributors": {
+          ":description": "Lista di chi ha contribuito a sta merda",
+          ":items": {
+            "role": {
+              ":description": "Ruolo del cazzo",
+              ":type": "line"
+            },
+            "name": {
+              ":description": "Nome completo da fare il display",
+              ":type": "line"
+            }
+          }
+        }
+      }
     }
   },
-  "custom-list": {
+  "videoPortfolio": {
     ":items": {
-      "custom-list-item": {
-        ":type": "line"
+      "video": {
+        ":description": "Singolo oggetto della lista del portfolio del sound composition",
+        "url": {
+          ":description": "URL da Vimeo per l'anteprima",
+          ":type": "line"
+        },
+        "title": {
+          ":description": "Titolo",
+          ":type": "line"
+        },
+        "description": {
+          ":description": "Descrizione ",
+          ":type": "line"
+        },
+        "contributors": {
+          ":description": "Lista di chi ha contribuito a sta merda",
+          ":items": {
+            "role": {
+              ":description": "Ruolo del cazzo",
+              ":type": "line"
+            },
+            "name": {
+              ":description": "Nome completo da fare il display",
+              ":type": "line"
+            }
+          }
+        }
       }
     }
   }
