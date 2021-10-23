@@ -15,24 +15,24 @@
         "description": "Red Scorpion Official Documentary",
         "contributors": [
           {
-            "role": "Color Grading",
-            "name": "Ryan Moser"
-          },
-          {
-            "role": "Editing",
-            "name": "Matteo Santi"
-          },
-          {
-            "role": "Directors",
-            "name": "Stefano Dozza and Caterina Appignani"
-          },
-          {
             "role": "Music",
             "name": "Filippo Medici"
           },
           {
             "role": "Sound Design",
             "name": "Filippo Medici"
+          },
+          {
+            "role": "Directors",
+            "name": "Stefano Dozza and Caterina Appignani"
+          },
+          {
+            "role": "Color Grading",
+            "name": "Ryan Moser"
+          },
+          {
+            "role": "Editing",
+            "name": "Matteo Santi"
           }
         ]
       }
