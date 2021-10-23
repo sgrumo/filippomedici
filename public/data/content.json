@@ -1,9 +1,13 @@
 {
+    "custom-list": [
+        {},
+        {}
+    ],
     "home": [
         {
             "category": {
                 "title": "Sound Design and Composition",
-                "photo": "foto"
+                "photo": "sound"
             }
         }
     ]
