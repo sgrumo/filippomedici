@@ -1,6 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import content from '../public/data/content';
 
-export default function About() {
+export default function Sound({ content }) {
     return (
         <div>
             <Head>
@@ -22,4 +23,14 @@ export default function About() {
             </main>
         </div>
     )
+}
+
+
+export const getStaticProps = async () => {
+    console.log(JSON.stringify(content));
+    return {
+        props: {
+            content,
+        }
+    };
 }
